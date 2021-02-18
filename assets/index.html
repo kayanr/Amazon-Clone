@@ -10,13 +10,15 @@
   <body>
     <div class="wrapper">
       <header class="main-header">
-        <div class="container"></div>
-        <h1 class="name">Amazon</h1></li>
-         <ul>
-        <li><img src="shoppingcart.png" alt="shopping cart" ></li>
-        <li>$0.00</li>
-          </ul>
-          <ul>
+        <div class="container">
+         
+        <h1 class="name">Amazon</h1>
+        
+         <img class="cart"  src="shoppingcart.png" alt="shopping cart" >
+          <a class="price" href="#">$0.00</a>
+        
+        </div>
+          <ul class="nav">
             <li><a href="#">Home</a></li>
             <li><a href="#">Shop</a></li>
             <li><a href="#">Blog</a></li>
@@ -26,9 +28,22 @@
             <li><a href="#">Buy Theme</a></li>
             
           </ul>
-        </div>
+        
       </header>
       
+    
+    <h2>Catalog</h2>
+    <div class="catalog">
+    <h3>Showing all 11 results</h3>
+    <form action="#">
+      <label for="products"></label>
+      <select name="products" id="products" placeholder="default sorting">
+        <option value="defaultSorting">Default sorting</option>
+        
+      </select>
+      <br><br>
+      </form>
     </div>
+  </div>
   </body>
 </html>

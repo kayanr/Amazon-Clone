@@ -19,17 +19,25 @@ a {
 }
 
 .name{
-    margin: 0;
+    margin: 0 300px; 
     color:#fdcb77;
     font-size: 60px;
     text-align: center;
 }
 .main-header{
     padding: 1em 0;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
 }
 
 .container{
     margin: auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
 }
 
 ul{
@@ -37,6 +45,28 @@ ul{
 }
 
 img{
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
+    /* justify-content:flex-end ; */
+    margin-left: auto;
 }
+
+.price{
+    justify-content: flex-end;
+    color: blue;
+      
+}
+
+.catalog{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    justify-content: flex-start;
+}
+
+form{
+     margin-left: auto;
+    align-items: bottom;
+}
+
