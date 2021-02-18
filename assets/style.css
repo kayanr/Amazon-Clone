@@ -44,14 +44,14 @@ ul{
     text-align: center; 
 }
 
-img{
+.cart{
     width: 20px;
     height: 20px;
     /* justify-content:flex-end ; */
     margin-left: auto;
 }
 
-.price{
+.cprice{
     justify-content: flex-end;
     color: blue;
       
@@ -69,4 +69,42 @@ form{
      margin-left: auto;
     align-items: bottom;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    justify-content: space-around;
+    background-color: moccasin;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .card-products{
+      display:flex;
+      flex-direction: row;
+      
+
+  }
 
